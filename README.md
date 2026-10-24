@@ -46,7 +46,6 @@ Proyek 1 mata kuliah **Pengembangan Aplikasi Berbasis Web (PABWE) 2026**, dikerj
 ├── package.json
 ├── vitest.config.mjs
 ├── sonar-project.properties
-└── Jenkinsfile
 ```
 
 ## Menjalankan di Komputer Lokal
