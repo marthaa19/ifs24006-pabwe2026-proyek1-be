@@ -1,0 +1,26 @@
+{
+  "name": "ifs24006-pabwe2026-proyek1-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LombaRadar API - Express.js + SQLite",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.0.5",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
